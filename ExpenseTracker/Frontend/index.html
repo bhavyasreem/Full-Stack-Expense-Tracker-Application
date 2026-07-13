@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage personal and business expenses, track savings, and build your budget seamlessly.">
+    <title>Expense Tracker - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="main-nav">
+        <a href="index.html" class="nav-brand">
+            <span>💲</span>ExpenseTracker
+        </a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <!-- Links dynamically updated by script.js -->
+        </ul>
+        <div class="nav-user" id="nav-user-container">
+            <!-- Auth buttons dynamically rendered by script.js -->
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Master Your Finances</h1>
+            <p>Take control of your personal and business budgets, record income, analyze category expenses, and see where your money goes. Secure, simple, and visually stunning.</p>
+            <div id="hero-actions">
+                <a href="register.html" class="btn btn-primary">Get Started Now</a>
+                <a href="login.html" class="btn btn-secondary">Log In</a>
+            </div>
+        </section>
+
+        <section class="grid-3" style="margin-top: 3rem;">
+            <div class="card">
+                <h3>📈 Income Management</h3>
+                <p>Record your monthly salary, freelancing earnings, investments, and track multiple income sources in one consolidated ledger.</p>
+            </div>
+            <div class="card">
+                <h3>📉 Expense Tracking</h3>
+                <p>Categorize your daily costs, from dining to rent. Tag transactions with payment modes like UPI, Cash, or Credit Cards.</p>
+            </div>
+            <div class="card">
+                <h3>💼 Budget Planning</h3>
+                <p>Establish monthly spending ceilings by category and overall budget. Get notified instantly when you go over limit.</p>
+            </div>
+        </section>
+
+        <section class="card" style="margin-top: 3rem; text-align: center;">
+            <h2>Quick Analytical Overview</h2>
+            <p>Once logged in, your dashboard calculates real-time savings and displays a breakdown of transactions.</p>
+            <a href="dashboard.html" class="btn btn-primary" style="margin-top: 1rem;">Go to Dashboard</a>
+        </section>
+    </main>
+
+    <footer style="margin-top: auto; padding: 2rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+        &copy; 2026 ExpenseTracker Application. All rights reserved.
+    </footer>
+
+    <div class="notification-container" id="notification-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
