@@ -52,7 +52,7 @@ Ensure you have **Python 3.10+** and **pip** installed.
 2. Initialize or verify your environment file:
    Create a `.env` file in the root `ExpenseTracker/` with the following variables:
    ```env
-   MONGO_URI=mongodb+srv://bhavyasree3012:Bhavyasree1234@cluster0.zx7ka0h.mongodb.net/
+   MONGO_URI=......
    SECRET_KEY=django-insecure-expense-tracker-secret-key-123456
    DEBUG=True
    ALLOWED_HOSTS=*
