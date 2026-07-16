@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 # Load env variables from the project root's .env file
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://bhavyasree3012:Bhavyasree1234@cluster0.zx7ka0h.mongodb.net/")
+MONGO_URI = os.getenv("MONGO_URI", ".....")
 
 # Connect to MongoDB Atlas
 # Using serverSelectionTimeoutMS to fail quickly if connection issues arise
